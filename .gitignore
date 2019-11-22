@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+local/app.conf
+local/commands.conf
+metadata/local.meta

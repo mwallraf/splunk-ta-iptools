@@ -1,0 +1,33 @@
+<setup>
+
+	<!-- TA-IPTools logging settings - int2ip command -->
+	<block title="Configure command: int2ip"
+		   endpoint="configs/conf-logging"
+		   entity="logger_int2ipCommand"
+		>
+		<text>
+			&lt;i&gt;Set the logging level (NOTSET|DEBUG|INFO|WARNING|ERROR|CRITICAL)&lt;/i&gt;
+		</text>
+
+		<input field="level">
+			<label>LOG LEVEL (default=NOTSET):</label>
+			<type>string</type>
+		</input>
+	</block>
+
+	<!-- TA-IPTools logging settings - ip2int command -->
+	<block title="Configure command: ip2int"
+		   endpoint="configs/conf-logging"
+		   entity="logger_ip2intCommand"
+		>
+		<text>
+			&lt;i&gt;Set the logging level (NOTSET|DEBUG|INFO|WARNING|ERROR|CRITICAL)&lt;/i&gt;
+		</text>
+
+		<input field="level">
+			<label>LOG LEVEL (default=NOTSET) :</label>
+			<type>string</type>
+		</input>
+	</block>
+
+</setup>
